@@ -1,14 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./dist/*.{html,js}",
-    // Add other paths for template files (e.g., ./src/**/*.{html,js})
+    './src/**/*.{html,js}', // Adjust the path if your HTML files are elsewhere
+    './dist/**/*.html', // This ensures Tailwind scans your compiled HTML files as well
   ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-
 
 
