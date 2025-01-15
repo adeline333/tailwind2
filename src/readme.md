@@ -1,0 +1,31 @@
+## TAILWIND
+``` bash
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="bg-gray-100 max-w-md mx-auto sm:bg-yellow-300 md:bg-green-300 lg: bg-pink-300 xl:bg-red-300" >
+    
+    <div class="px-8 py-12 ">
+    <img src="/images/LOGO.png" alt="workcation" class="mx-auto h-16 w-[100px]">
+    <img src="/images/at the beach pic.jpg" alt="at the beach" class=" mt-5 mx-auto h-96 rounded-xl"> 
+    <h1 class=" mt-6 text-2xl font-bold">
+         You can work from anywhere. <span class="text-indigo-500">Take advantage of it.</span></h1>
+<h1>
+    <p class="mt-6  mx-auto text-gray-600" >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt odit minima, perferendis repudiandae officia sit modi! In ipsum aut, quod ad omnis quibusdam rerum. Exercitationem mollitia quia consequuntur libero natus.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id dolores asperiores tenetur praesentium earum quae minima? Eius eligendi ratione sunt. Quos, nulla? Officiis magnam recusandae mollitia, earum possimus dicta enim.
+    </p>
+    <div>
+       <a class=" inline-block rounded-lg shadow-lg bg-indigo-500 text-white px-5 py-3 uppercase tracking-wide font-bold text-sm" href="" >Book your escape</a> 
+    </div>
+</h1>
+</div>
+
+</body>
+</html>
+```
